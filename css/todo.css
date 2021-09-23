@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: lightgrey;
+    font-family: 'poppins';
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+    margin-top: 100px;
+    color:rgb(34, 34, 34)
+}
+.container{
+    text-align: center;
+}
+.list-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    margin-top: 50px;
+    
+}
+.newDiv{
+    background: white!important;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px 50px 10px 0px;
+    
+    
+}
+li{
+    margin-right: 100px;
+    list-style-type: none;
+    font-size: 14px;
+    margin-left: 10px;
+    text-transform: capitalize;
+    
+}
+
+
+
+input{
+    padding: 10px;
+    border: 1px solid rgb(66, 28, 202);
+    border-radius: 7px;
+    width: 180px;
+    outline: none;
+    background: #ededed;
+}
+.clear{
+    margin-top: 150px;
+    text-align: center;
+    position: static;
+}
+
+
+#clear{
+    padding: 8px;
+    border-radius: 15px;
+    width: 120px;
+    border: none;
+    outline: none;
+    background: rgb(66, 28, 202);
+    color: white;
+}
+#clear:hover{
+background: white;
+color: rgb(66, 28, 202);;
+transition: ease 1s;
+}
+
+
+#add{
+    text-align: center;
+    padding: 8px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+     border: none;
+    outline: none;
+    background: rgb(66, 28, 202);;
+    color: white;
+    position: relative;
+    left: -20px;
+    top: 1px;
+    font-size: 18px;
+}
+
+#add:hover{
+    background: rgb(211, 209, 209);
+    color: rgb(66, 28, 202);;
+    transition: ease 1s;
+    border: 1px solid rgb(66, 28, 202);;
+    padding: 7px;
+    }
+    
+
+
+    .fa-trash, .fa-check{
+        pointer-events: none;
+        
+        
+    }
+    
+     .completed{
+        text-decoration: line-through;
+        opacity: 0.5;
+        transition: ease 0.5s;
+    } 
+    .animation{
+        transform: translateY(8rem) rotate(30deg);
+        opacity: 0;
+        transition: ease 1s;
+    }
+
+
+
+    .complete, .remove{
+        background: rgb(66, 28, 202);;
+        margin: 0px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 8px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    .complete{
+        background: silver;
+    }
+    #error{
+        text-transform: capitalize;
+        color: rgb(34, 34, 34);
+        font-size: 17px;
+        font-family: 'poppins';
+    }
